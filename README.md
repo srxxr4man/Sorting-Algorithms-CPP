@@ -9,18 +9,26 @@
 <p align="center">
   <b>Understanding Sorting Through Implementation 🚀</b>
   <br>
-  A menu-driven C++ program implementing four fundamental sorting algorithms.
+  A menu-driven C++ application implementing four fundamental sorting algorithms.
 </p>
 
 ---
 
 ## 📌 About the Project
 
-Sorting is one of the fundamental concepts in Data Structures and Algorithms (DSA).
+Sorting is one of the fundamental concepts in **Data Structures and Algorithms (DSA)**.
 
 This project demonstrates the implementation of four popular sorting algorithms using C++ through an interactive, menu-driven console application. Users can enter an array of elements, select their preferred sorting algorithm, and view the sorted output.
 
 Each sorting operation works on a copy of the original array, allowing users to experiment with different algorithms without modifying the original input.
+
+## 🎯 Project Objectives
+
+- Understand the working principles of different sorting algorithms.
+- Implement recursive and iterative sorting techniques using C++.
+- Explore the Divide and Conquer approach.
+- Analyze and compare time and space complexities.
+- Develop an interactive application using STL vectors.
 
 ## 🚀 Sorting Algorithms Implemented
 
@@ -40,6 +48,28 @@ Each sorting operation works on a copy of the original array, allowing users to 
 - 🔄 **Repeated Execution:** Supports multiple sorting operations without restarting the program.
 - 🛡️ **Data Preservation:** Uses a separate vector for every sorting operation, preserving the original array.
 
+## 🧠 How the Algorithms Work
+
+### 1. Quick Sort
+- Selects a pivot element.
+- Partitions the array around the pivot.
+- Recursively sorts the left and right partitions.
+
+### 2. Merge Sort
+- Divides the array into smaller subarrays.
+- Recursively sorts each subarray.
+- Merges the sorted subarrays into a single sorted array.
+
+### 3. Insertion Sort
+- Starts with the second element.
+- Compares it with previously sorted elements.
+- Inserts it into its correct position.
+
+### 4. Selection Sort
+- Finds the smallest element in the unsorted portion.
+- Swaps it with the first unsorted element.
+- Repeats until the array is sorted.
+
 ## 📊 Time Complexity Analysis
 
 | Algorithm | Best Case | Average Case | Worst Case |
@@ -57,6 +87,8 @@ Each sorting operation works on a copy of the original array, allowing users to 
 | Merge Sort | O(n) |
 | Insertion Sort | O(1) |
 | Selection Sort | O(1) |
+
+*Note: Quick Sort's auxiliary space depends on recursion depth and can reach O(n) in the worst case. Actual implementation details may also affect space usage.*
 
 ## 🖥️ Sample Output
 
@@ -85,10 +117,14 @@ Array After Quick Sort: 9 12 23 45 78
 
 ## 🛠️ Technologies & Concepts Used
 
-- 💻 **Programming Language:** C++
-- 📦 **STL:** Vector
-- 🔁 **Programming Concepts:** Recursion and Iteration
-- 🧠 **Algorithmic Techniques:** Divide and Conquer and Comparison-Based Sorting
+| Technology / Concept | Application |
+|---|---|
+| C++ | Core programming language |
+| STL Vector | Dynamic array storage |
+| Recursion | Quick Sort and Merge Sort |
+| Iteration | Insertion Sort and Selection Sort |
+| Divide and Conquer | Quick Sort and Merge Sort |
+| Comparison-Based Sorting | Ordering array elements |
 
 ## 📂 Repository Structure
 
@@ -140,6 +176,7 @@ Through this project, I explored:
 - Learning the Divide and Conquer approach.
 - Working with C++ STL vectors.
 - Comparing algorithm performance through time and space complexity.
+- Understanding the differences between recursive and iterative algorithms.
 - Developing interactive, menu-driven console applications.
 
 ## 🔮 Future Enhancements
@@ -148,16 +185,33 @@ Through this project, I explored:
 - 🎨 Implement step-by-step sorting visualization.
 - ➕ Include additional algorithms such as Bubble Sort, Heap Sort, and Shell Sort.
 - 📊 Analyze algorithm performance using different input sizes.
+- 📉 Generate graphical performance comparisons.
+
+## 🎓 Academic Project Details
+
+| Detail | Information |
+|---|---|
+| **Institution** | Muthoot Institute of Technology and Science (MITS) |
+| **Department** | Artificial Intelligence and Data Science |
+| **Academic Batch** | 2025–2029 |
+| **Project Domain** | Data Structures & Algorithms |
+| **Project Title** | Sorting Algorithms in C++ |
+| **Programming Language** | C++ |
+| **Project Type** | Individual Programming Project |
 
 ---
 
 ## 👨‍💻 Author
 
-**A Sreeram**
-
-🎓 Artificial Intelligence & Data Science Student
-
-💡 Interested in C++, Data Structures & Algorithms, and Machine Learning.
+<p align="center">
+  <b>A Sreeram</b>
+  <br>
+  🎓 Artificial Intelligence & Data Science Student
+  <br>
+  Muthoot Institute of Technology and Science (MITS)
+  <br><br>
+  💡 Interested in C++, Data Structures & Algorithms, and Machine Learning.
+</p>
 
 ---
 
