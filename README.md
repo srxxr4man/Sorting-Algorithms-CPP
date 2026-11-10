@@ -153,7 +153,7 @@ Through this project, I explored:
 
 ## 👨‍💻 Author
 
-**Sreeram**
+**A Sreeram**
 
 🎓 Artificial Intelligence & Data Science Student
 
