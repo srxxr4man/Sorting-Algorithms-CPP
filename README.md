@@ -140,7 +140,7 @@ Sorting-Algoritms-CPP/
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Sorting-Algoritms-CPP.git
+git clone https://github.com/srxxr4man/Sorting-Algoritms-CPP.git
 ```
 
 **2. Navigate to the Repository**
